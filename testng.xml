@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="locationFile" value="src/main/resources/Orkin_Meta Optimizations_April 2021_FINAL.xlsx"/>
+    <parameter name="environment" value="QA"/>
+    <test verbose="2" preserve-order="true" name="/Users/hgrajales/Documents/HUGE Projects/OrkinMetaDataProject">
+        <classes>
+            <class name="H1.PrintExcelData">
+                <methods>
+                    <include name="PrintExcelTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
